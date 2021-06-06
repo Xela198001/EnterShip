@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <script src="js/burger-menu.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="wrapper">
+          <div class="header-logo">
+            <svg class="logo-ship">
+              <use xlink:href="img/logo-small.svg#logo_small"></use>
+            </svg>
+            <span class="logo-title"
+              >Enter <br />
+              Ship</span
+            >
+          </div>
+          <a href="#" class="button">Билеты</a>
+          <div id="menu" class="menu hidden">
+            <nav class="nav">
+              <button class="button-close"><span></span><span></span></button>
+              <div class="nav-logo">
+                <svg class="cara-logo">
+                  <use xlink:href="img/logo.svg#logo"></use>
+                </svg>
+                <span class="logo-title"
+                  >Enter <br />
+                  Ship</span
+                >
+              </div>
+              <ul class="nav-list">
+                <li class="list-item">
+                  <a href="#" class="item-link">главная</a>
+                </li>
+                <li class="list-item">
+                  <a href="#" class="item-link">круизы</a>
+                </li>
+                <li class="list-item">
+                  <a href="#" class="item-link">списки</a>
+                </li>
+              </ul>
+              <div class="social-icons">
+                <a href="#" class="icon-link">
+                  <img src="img/icon_telegram.svg" alt="icon telegram" />
+                </a>
+                <a href="#" class="icon-link">
+                  <img src="img/icon-instagram.svg" alt="icon instagram" />
+                </a>
+                <a href="#" class="icon-link">
+                  <img src="img/icon_vk.svg" alt="icon vk" />
+                </a>
+              </div>
+            </nav>
+          </div>
+          <button class="button-burger">
+            <div class="icon-burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
+      </header>
+      <section class="main">
+        <div class="wrapper">
+          <div class="main-logo">
+            <div class="logo-img">
+              <svg class="logo-ship">
+              <use xlink:href="img/logo.svg#logo"></use>
+            </svg>
+            <div class="logo-text"><span>Enter</span><span>Ship</span></div>
+            </div>
+            <div class="logo-es">
+              <span>E</span><span>S</span>
+            </div>
+          </div>
+          <a href="#" class="main-link">Купить путевки</a>
+          <div class="social">
+            <a href="#" class="icon-link">
+              <img src="img/icon_telegram.svg" alt="icon telegram" />
+            </a>
+            <a href="#" class="icon-link">
+              <img src="img/icon-instagram.svg" alt="icon instagram" />
+            </a>
+            <a href="#" class="icon-link">
+              <img src="img/icon_vk.svg" alt="icon vk" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="cruises">
+        <div class="wrapper">
+          <h1 class="title">Круизы</h1>
+          <div class="list">
+            <div class="item">
+              <h2 class="date">04.06</h2>
+              <span>k-30</span>
+              <span>rash, brique, psyrus, endi</span>
+              <span>mc: dzen</span>
+            </div>
+            <div class="item">
+              <h2 class="date">12.06</h2>
+              <span>vnvnc</span>
+              <span>BMB SPACEKID,ERICK</span>
+              <span>mc: kil kira</span>
+            </div>
+          </div>
+          <a href="#" class="cruises-link">Купить билет</a>
+        </div>
+      </section>
+      <section class="bid">
+        <div class="wrapper">
+          <h2 class="title">Списки</h2>
+          <p class="text">
+            Если в вашем Instagram хорошие охваты и вы готовы поддержать наш
+            проект, заполните форму - мы с вами свяжемся.
+          </p>
+          <form action="#" method="post">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="name"
+              placeholder="имя"
+            />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              class="phone"
+              placeholder="телефон"
+            />
+            <input
+              type="text"
+              name="profile"
+              id="profile"
+              class="profile"
+              placeholder="ссылка на профиль"
+            />
+            <button type="submit" class="button">Отправить</button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="wrapper">
+          <p class="text">DeSIGN by UL</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
